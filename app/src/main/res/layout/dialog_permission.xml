@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:paddingVertical="50dp"
+    app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_dialog_title"
+            style="@style/txt_medium_normal"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Permission Needed"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_dialog_description"
+            style="@style/txt_medium_normal"
+            android:layout_marginTop="8dp"
+            android:text="To access this feature we need permission please allow %s access to app from app settings"
+            android:textColor="#838080"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_close_app"
+                style="@style/txt_medium_normal"
+                android:paddingVertical="10dp"
+                android:gravity="center"
+                android:text="Close"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="?selectableItemBackground"/>
+
+            <TextView
+                android:id="@+id/txt_ok"
+                style="@style/txt_medium_normal"
+                android:paddingHorizontal="18dp"
+                android:paddingVertical="10dp"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:background="?selectableItemBackground"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

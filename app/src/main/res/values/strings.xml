@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="x">X</string>
+    <string name="are_you_sure_want_to_logout_your_account">Are you sure want to logout your account ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+</resources>
